@@ -11,10 +11,10 @@ const App = () => {
       <UserList />
       <div>
         <button className="ui button" onClick={() => setResource("posts")}>
-          All Posts
+          Posts
         </button>
         <button className="ui button" onClick={() => setResource("todos")}>
-          All Todos
+          Todos
         </button>
       </div>
       <ResourceList resource={resource} />
